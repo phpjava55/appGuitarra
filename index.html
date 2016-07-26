@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>INVIE</title>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat|Allerta' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	  
+      <section id="portada" class="portada">
+        <header id="header" class="header content">
+        <figure class="logotipo">
+        <img src="images/invie.png"  width="186"  height="60" alt="">
+       </figure>
+       <nav class="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#guitarras">Guitarras</a></li>
+          <li><a href="precio.html">Precio</a></li>
+        </ul>
+       </nav>
+       </header>
+
+      	 <div class="content portada-main">
+      	 	 <h1 class="titulo">Guitarras  <span class="span">invie</span>sibles</h1>
+	      	 <h3 class="title-a">Se la estrella de rock que siempre quisiste ser </h3>
+	      	 <button >Conoce mas </button>
+      	 </div>
+      </section>
+      <section id="guitarras" class="guitarras content">
+      	  <h2>Nuestras guitarras</h2>
+      	  <article class="guitarra">
+      	  	  <img class="derecha" src="images/invie-acustica.png" width="300" alt="">
+
+      	  	  <div class="contenedor-guitarra-a">
+      	  	  	<h3 class="title-b">Invie Acustica</h3>
+      	  	   <ol>
+      	  	   	  <li>Estilos vintage</li>
+      	  	   	  <li>Madera dura</li>
+      	  	   	  <li>Incluye estuche invisible de aluminio</li>
+      	  	   </ol>
+      	  	  </div>  
+      	  </article>
+
+      	  <article class="guitarra">
+      	  	  <img class="izquierda" src="images/invie-classic.png" width="300" alt="">
+      	  	   
+             <div class="contenedor-guitarra-b">
+             	  <h3 class="title-b">Invie Classic</h3>
+      	  	   <ol>
+      	  	   	  <li>Estilos vintage</li>
+      	  	   	  <li>Liviana</li>
+      	  	   	  <li>Inicia tu cammino como Rockstart</li>
+      	  	   </ol>	
+             </div>
+      	  </article> 
+      </section>
+
+      <footer class="footer">
+
+         <div class="content padre">
+
+         	<div class="contacto">
+      	  	  <img src="images/invie-white.png" alt="">
+              <a href="tel:073318337"><strong>Telefono:</strong>318337</a>
+              <a href="mailto:php@hotmail.com"><strong>E-Mail: </strong>php@hotmail.com</a>
+      	  </div>
+      	  <form class="formulario">
+
+              <div class="col-1">
+
+      	       <label for="nombre"></label>
+      	   	   <input type="text" id="nombre" required placeholder="Nombre" />
+      	   	   <label for="email"></label>
+      	   	   <input type="email"  id="email" required placeholder="Email" /> 
+
+      	   	  <div class="sexo">
+      	   	  	<label for="mujer">
+               	  <input type="radio" name="genero" id="mujer" checked="">mujer
+               </label>  
+               <label for="hombre">
+               	 <input type="radio" name="genero" id="hombre">
+                 hombre
+               </label>
+      	   	  </div>
+      	   	  <div class="interes">
+      	   	   <label for="cotizacion">
+      	   	   	 <input type="checkbox" name="cotizacion" id="" checked="">
+      	   	   	 Cotizacion
+      	   	   </label>
+      	   	   <label for="reclamos">
+      	   	   	 <input type="checkbox" name="reclamos" id="reclamos">
+      	   	   	 Cotizacion
+      	   	   </label>
+      	   	   <label for="comentarios">
+      	   	   	 <input type="checkbox" name="comentarios" id="comentarios">
+      	   	   	 Cotizacion
+      	   	   </label>
+      	   	   <label for="cotizacion">
+      	   	   	 <input type="checkbox" name="otros" id="otros">
+      	   	   	 Cotizacion
+      	   	   </label>
+      	   	  </div>
+
+            </div>
+
+             <div class="col-2">
+
+              <div>
+                <label for="">Comentarios</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="Enviar"/>
+              </div>
+
+            </div>
+
+      	     </form>
+      	   </div>
+      </footer>
+      
+</body>
+</html>
+
+
+<!-- EJEMPLO DE FLEXBOX -->
+
+
+<!-- .padre {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.hijo {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background: green;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex -->
